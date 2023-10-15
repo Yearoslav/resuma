@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-size: 14px;
+    font-family: 'Robota' sans-serif;
+    font-weight: 400;
+}
+.bmpk{
+    background: rgb(182, 146, 146);
+}
+.foto{
+    border-radius: 3%;
+    padding: 10px 10px ;
+}
+.glav{
+    margin:auto;
+    background:rgba(0,0,100,0.2);
+    width: 700px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    display: flex;
+}
+.vk{
+    text-decoration: none;
+    background: #bda6bc;
+    color: #000000;
+    transition: all .4s;
+}
+.vk:hover{
+    color: rgb(69, 65, 75);
+    font-size: 17px;
+}
+.vk:active{
+    color: bisque;
+}
+
+.bloc li{
+    margin-bottom: 8px;
+    border-bottom: 1px solid gray;
+}
+
+.border-hobby{
+    border: 2px solid rgba(86, 209, 168,0.2);
+    border-radius: 5px;
+    background: rgba(50, 191, 196,0.2);
+    width: 50%;
+    margin-bottom: 15px;
+    margin: auto;
+    padding: 10px;
+    float: left;
+}
+
+.border-worck{
+    border: 2px solid rgba(247, 238, 125,0.2);
+    border-radius: 5px;
+    background: rgba(255, 238, 0,0.2);
+    width:50%;
+    margin-left: 50%;
+    padding: 10px;
+
+}
+.ctroc {
+    width: 49%;   
+    display: inline-block;
+    box-sizing: border-box;
+   }
+   
+.foto{
+    box-shadow: 4px 4px 14px rgba(141, 128, 255, 0.25);
+    margin: auto;
+    width: 200px;
+    border-radius: 28px;
+}
+footer{
+    padding: 15px 30px ;
+    background:rgba(200,0,0,0.2);
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 7%;
+    margin-top: 60px;
+}
+.conteiner{
+   max-width: 750px;
+   margin: auto;
+   padding-top: 30px;
+}
+footer h2 {
+   text-align: center;
+}
+.meme2 {
+margin-bottom: 10px ;
+}
+.neme2 .neme {
+    display:inline-block;
+    margin-left: 20px;
+    width: calc(46% - 20px)
+    }
+    .neme2 .neme:last-child{
+        margin-right:0 ;
+     }
+     .neme3{
+        margin-left: 20px;
+     }
+.neme3 label { 
+    padding: 4px ;
+}
+.neme label{
+    display: block;
+    font-size: 16px;
+   }
+
+
+
+.otpravka{
+    background: #8f6b6b;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: all .4s;
+
+}
+.otpravka:hover{
+    color: rgb(255, 141, 141);
+    font-size: 16px;
+}
+.otpravka:active{
+    color: #8f6b6b;
+}
+
+
